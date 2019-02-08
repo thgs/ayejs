@@ -1,0 +1,14 @@
+{
+  "commands": [
+    {
+      "slug": "vol-up",
+      "name": "volume up",
+      "shell": "pactl set-sink-volume 0 +20%"
+    },
+    {
+      "slug": "vol-down",
+      "name": "volume down",
+      "shell": "pactl set-sink-volume 0 -20%"
+    }
+  ]
+}
